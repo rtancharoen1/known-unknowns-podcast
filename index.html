@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KNOWN UNKNOWNS with Lexx — long-form conversations with people living at the edge of what we know.">
+  <meta name="theme-color" content="#0b0d0c">
+  <title>KNOWN UNKNOWNS — with Lexx</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the conversation</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Known Unknowns home">
+      <span>KNOWN</span><i aria-hidden="true"></i><span>UNKNOWNS</span>
+      <small>with Lexx</small>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#premise">Premise</a>
+      <a href="#field">Field</a>
+      <a href="#episodes">Episodes</a>
+      <a href="#contact">Suggest a guest</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="coordinates" aria-hidden="true">13.7563° N · 100.5018° E<br>09.7319° N · 100.0136° E</div>
+      <p class="eyebrow"><span class="live-dot"></span> Long-form conversations / Field transmission 001</p>
+      <h1 id="hero-title"><span>KNOWN</span><span class="outline">UNKNOWNS</span></h1>
+      <div class="hero-bottom">
+        <p class="hero-line">Come for what they know.<br><em>Stay for what they don’t.</em></p>
+        <div class="hero-copy">
+          <p>Conversations with people living at the edge of what we know—from physics, AI, and deep technology to spirituality, music, festivals, creativity, and the human experience.</p>
+          <div class="actions">
+            <a class="button primary" href="#premise">Explore the premise <span aria-hidden="true">↘</span></a>
+            <a class="button secondary" href="#contact">Suggest a guest</a>
+          </div>
+        </div>
+      </div>
+      <div class="signal" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="statement" id="premise" aria-labelledby="premise-title">
+      <div class="section-index">01 / THE PREMISE</div>
+      <div class="statement-copy">
+        <h2 id="premise-title">Expertise gets us through the door.<br><em>Uncertainty makes it interesting.</em></h2>
+        <p class="lede">Long-form conversations with people living at the edge of what we know.</p>
+        <p>Lexx follows each guest’s journey into the questions that still remain. The aim is not only to understand their work, but to zoom out: how it changed them, how it feels from the inside, and what they see when they look back at themselves.</p>
+      </div>
+    </section>
+
+    <section class="trajectory" aria-labelledby="trajectory-title">
+      <div class="section-index">02 / CONVERSATION TRAJECTORY</div>
+      <h2 id="trajectory-title" class="sr-only">Conversation trajectory</h2>
+      <ol class="trajectory-list">
+        <li>
+          <span class="number">01</span>
+          <div><h3>THE KNOWN</h3><p>Craft, work, language, and the journey that built their point of view.</p></div>
+          <span class="axis-dot" aria-hidden="true"></span>
+        </li>
+        <li>
+          <span class="number">02</span>
+          <div><h3>THE EDGE</h3><p>Turning points, contradictions, stakes, and the moment the map stopped working.</p></div>
+          <span class="axis-dot" aria-hidden="true"></span>
+        </li>
+        <li>
+          <span class="number">03</span>
+          <div><h3>THE UNKNOWN</h3><p>Feeling, meaning, doubt, and the questions that follow when the work is over.</p></div>
+          <span class="axis-dot" aria-hidden="true"></span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="question-lab" aria-labelledby="lab-title">
+      <div class="lab-copy">
+        <div class="section-index">03 / MOVE THE QUESTION</div>
+        <h2 id="lab-title">Slide from fact<br>toward feeling.</h2>
+        <p>The best conversation rarely stays where it started.</p>
+      </div>
+      <div class="question-control">
+        <div class="range-labels" aria-hidden="true"><span>KNOWN</span><span>THE EDGE</span><span>UNKNOWN</span></div>
+        <input id="question-range" type="range" min="0" max="3" value="1" step="1" aria-label="Move the interview question from known to unknown">
+        <output id="question-output" for="question-range" aria-live="polite">“Where does your field stop agreeing with itself?”</output>
+        <span class="question-code" id="question-code">PROMPT_02 / EDGE</span>
+      </div>
+    </section>
+
+    <section class="topic-field" id="field" aria-labelledby="field-title">
+      <div class="section-index">04 / THE FIELD</div>
+      <div class="field-heading">
+        <h2 id="field-title">Different disciplines.<br><em>The same human questions.</em></h2>
+        <p>The frontier is not one place. It appears wherever knowledge meets experience—and certainty begins to loosen.</p>
+      </div>
+      <div class="field-map" aria-label="Topics explored by the show">
+        <span class="topic t1">AI</span><span class="topic t2">PHYSICS</span><span class="topic t3">SPIRITUALITY</span>
+        <span class="topic t4">MUSIC</span><span class="topic t5">HARD SCIENCE</span><span class="topic t6">FESTIVALS</span>
+        <span class="topic t7">PHILOSOPHY</span><span class="topic t8">DEEP TECH</span><span class="topic t9">CREATIVITY</span>
+        <span class="topic t10">HUMANS</span><span class="topic t11">HUMAN EXPERIENCE</span>
+        <div class="field-cross" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="episodes" id="episodes" aria-labelledby="episodes-title">
+      <div class="section-index">05 / POSSIBLE TRANSMISSIONS</div>
+      <div class="episode-heading"><h2 id="episodes-title">People at the frontier.</h2><p>Illustrative episode directions—not announced guests.</p></div>
+      <div class="episode-grid">
+        <article>
+          <div class="card-top"><span>FIELD NOTE 001</span><span>PHYSICS / UNCERTAINTY</span></div>
+          <div class="glyph orbit" aria-hidden="true"></div>
+          <h3>The physicist who lives with uncertainty</h3>
+          <p>What years of measuring reality can—and cannot—teach us about living inside it.</p>
+          <a href="#contact">Imagine the conversation <span aria-hidden="true">↗</span></a>
+        </article>
+        <article>
+          <div class="card-top"><span>FIELD NOTE 002</span><span>AI / PURPOSE</span></div>
+          <div class="glyph nodes" aria-hidden="true"></div>
+          <h3>The AI builder asking what intelligence is for</h3>
+          <p>Beyond benchmarks and scale: what are we building toward, and who is it changing?</p>
+          <a href="#contact">Imagine the conversation <span aria-hidden="true">↗</span></a>
+        </article>
+        <article>
+          <div class="card-top"><span>FIELD NOTE 003</span><span>FESTIVALS / WORLDS</span></div>
+          <div class="glyph wave" aria-hidden="true"></div>
+          <h3>The festival maker designing temporary worlds</h3>
+          <p>How collective experiences are built—and what remains after the structures disappear.</p>
+          <a href="#contact">Imagine the conversation <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="host" aria-labelledby="host-title">
+      <div class="host-mark" aria-hidden="true"><span>L</span><div></div></div>
+      <div class="host-copy">
+        <div class="section-index">06 / HOST NOTE</div>
+        <h2 id="host-title">“The topic changes.<br><em>The curiosity doesn’t.</em>”</h2>
+        <p>I’m interested in people who have gone far enough into something that it changed the way they see everything else. I want to understand what they discovered, what it cost, and what remains unresolved.</p>
+        <p>Sometimes that means physics or AI. Sometimes it means music, consciousness, or building a temporary world in a field.</p>
+        <div class="signature"><strong>LEXX</strong><span>Entrepreneur · Creative technologist · Curious human</span><small>Bangkok ↔ Koh Phangan</small></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <div class="section-index">07 / OPEN CALL</div>
+        <h2 id="contact-title">Know someone<br>worth not knowing?</h2>
+        <p>Suggest a guest whose work is fascinating—and whose unanswered questions may be even better.</p>
+      </div>
+      <form id="guest-form">
+        <label for="guest-name">Guest name</label>
+        <input id="guest-name" name="guest-name" autocomplete="name" required placeholder="Who should Lexx speak with?">
+        <label for="guest-field">What are they exploring?</label>
+        <input id="guest-field" name="guest-field" required placeholder="Their field, work, or frontier">
+        <label for="guest-why">Why them?</label>
+        <textarea id="guest-why" name="guest-why" rows="3" required placeholder="What do they know—and what might they still be asking?"></textarea>
+        <button class="button primary" type="submit">Send into the unknown <span aria-hidden="true">↗</span></button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">KNOWN <i></i> UNKNOWNS <small>with Lexx</small></div>
+    <p>A working title. An open question.</p>
+    <a href="#top">Return to known territory ↑</a>
+  </footer>
+</body>
+</html>
